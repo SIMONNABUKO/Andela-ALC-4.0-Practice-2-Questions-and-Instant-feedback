@@ -1,0 +1,53 @@
+body{
+    background: #eee;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    
+}
+.question{
+    background: whitesmoke;
+    padding:10px;
+    box-shadow: 2px 2px 2px 2px limegreen;
+    justify-content: center;
+    
+}
+.feedback{
+    background: whitesmoke;
+    padding: 10px;
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+#isBlank{
+    color: red;
+    
+    
+}
+#me{
+    float: right;
+}
+#win{
+    width:100%;
+}
+#answer1:checked{
+    color: lime;
+}
+#answer2:checked{
+    color: lime;
+}
+#answer3:checked{
+    color: lime;
+}
+.h1{
+    color: limegreen;
+}
+#button{
+    color: white;
+    background-color: limegreen;
+    width: 150px;
+    
+}

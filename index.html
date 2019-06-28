@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question and answer App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="feedback" id="feedback">
+            <h2 id="isBlank">You must answer all the questions to finish!</h2>
+            <img id="win" src="" alt="">
+        </div>
+        <div class="question">
+
+            <form id="quizForm" name="quizForm">
+
+                <h2 class="h1">Answer the questions and see the magic happen!!</h2><br>
+                <p>Who is the current President of America?</p>
+
+                <input type="radio" id="answer3" name="answer1" value="Obama">Obama<br>
+                <input type="radio" id="answer3" name="answer1" value="Trump">Trump<br>
+
+                <p>What is the richest country in Africa?</p>
+                <input type="radio" id="answer2" name="answer2" value="Equatorial Guinea">Equatorial Guinea<br>
+                <input type="radio" id="answer2" name="answer2" value="Nigeria">Nigeria<br>
+
+                <p>Whats the most powerful country in East Africa</p>
+                <input type="radio" id="answer3" name="answer3" value="Kenya">Kenya<br>
+                <input type="radio" id="answer3" name="answer3" value="Uganda">Uganda<br><br>
+                <input type="button" id="button" value="Finish!" onclick="checkScore();">
+            </form>
+            <p id="me">By <em>Simon Angatia</em></p>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
